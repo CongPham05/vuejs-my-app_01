@@ -1,0 +1,96 @@
+{
+  "users": [
+    {
+      "email": "hello",
+      "name": "tommy",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "phamcong",
+      "email": "phamcong@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "hoangduc",
+      "email": "hoangduc@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "DaiNam",
+      "email": "dainam@gmail.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "KheAnh",
+      "email": "kheanh@gmail.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "name": "HuynhAnh",
+      "email": "huynhanh@gmail.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "name": "VinhHung",
+      "email": "vinhhung@gmail.com",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "name": "BaoBao",
+      "email": "baobao@gmail.com",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "name": "Vinh Rau",
+      "email": "vinhrau@gmail.com",
+      "password": "123456",
+      "id": 9
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Bao Long Quan Lau",
+      "contact": "03125487323",
+      "address": "44 Tran Thanh Tong, Cau Giay\n",
+      "id": 1
+    },
+    {
+      "name": "Tu Beo",
+      "contact": "0321549875",
+      "address": "90 Quan hoa, Cau giay Ha noi",
+      "id": 2
+    },
+    {
+      "name": "Vinh Rau ",
+      "contact": "0932326512",
+      "address": "56 Tran Duy Hung , Cau giay , Ha noi",
+      "id": 3
+    },
+    {
+      "name": "Bia duc troc",
+      "contact": "0965874213",
+      "address": "1123 Duong lang, cau giay , ha noi",
+      "id": 4
+    },
+    {
+      "name": "Lau Son Tung",
+      "contact": "0358687412",
+      "address": "66 Nguyen Khanh Toan, Cau Giay, Ha Noi",
+      "id": 5
+    },
+    {
+      "name": "Dai Gia quan",
+      "contact": "0365412878",
+      "address": "23 De La Thanh, Dong Da, Ha Noi",
+      "id": 6
+    }
+  ]
+}

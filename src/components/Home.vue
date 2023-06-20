@@ -56,11 +56,14 @@ export default {
       } else console.error(res);
     },
   },
-  async mounted() {
+
+  beforeMount() {
     let user = localStorage.getItem("user-infor");
     if (!user) {
       this.$router.push({ name: "SignUp" });
     }
+  },
+  mounted() {
     this.loadingRestaurats();
   },
 };

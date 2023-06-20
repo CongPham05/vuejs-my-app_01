@@ -23,7 +23,7 @@ export default {
     },
   },
   mounted() {
-    this.nameUser = JSON.parse(localStorage.getItem("user-infor")).name;
+    this.nameUser = JSON.parse(localStorage.getItem("user-infor"))?.name;
   },
 };
 </script>

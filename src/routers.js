@@ -5,6 +5,7 @@ import Add from './components/Add.vue';
 import Update from './components/Update.vue';
 import SignUp from './components/SignUp.vue';
 import Login from './components/Login.vue';
+import PageNotFound from './components/PageNotFound.vue';
 
 const routes = [
     {
@@ -32,10 +33,16 @@ const routes = [
         path: '/login',
         component: Login
     },
+    {
+        name: "PageNotFound",
+        path: '/:pathMatch(.*)*',
+        component: PageNotFound
+    }
 ]
 
 const router = createRouter({
     history: createWebHistory(),
+    linkExactActiveClass: 'active',
     routes: routes
 })
 

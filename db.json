@@ -91,6 +91,12 @@
       "contact": "0365412878",
       "address": "23 De La Thanh, Dong Da, Ha Noi",
       "id": 6
+    },
+    {
+      "name": "Tieu Nhi Quan",
+      "contact": "0385443131",
+      "address": "So 79 Duong Cau Giay, Ha Noi",
+      "id": 7
     }
   ]
 }
